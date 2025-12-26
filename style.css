@@ -131,6 +131,19 @@
   border-radius: 20px;
   border: 1px solid white;
 }
+.item8 {
+  background-image: url(./images/7.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 270px;
+  width: 430px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
 .item1Title {
   text-align: center;
   height: 40px;
@@ -944,4 +957,34 @@ nav {
 }
 .black2 {
   color: black;
+}
+/* =====================( 8 Memory game )===================== */
+.memoryBackground {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.memoryTitle {
+  color: orange;
+  font-size: 70px;
+  margin-top: 30px;
+}
+.memoryGrid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.memoryItem {
+  height: 150px;
+  width: 150px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: #49a6ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
 }
